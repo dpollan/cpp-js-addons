@@ -1,0 +1,23 @@
+{
+  "main": "lib/binding.js",
+  "dependencies": {
+    "node-addon-api": "^1.1.0"
+  },
+  "scripts": {
+    "test": "node --napi-modules ./test/test_binding.js"
+  },
+  "gypfile": true,
+  "name": "cpp-js-addons",
+  "description": "Hello World reference app for using C++ addons in NodeJs, also demonstrates the delta in time between merge sort using vanilla javascript vs using C++ for comparison",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dpollan/cpp-js-addons.git"
+  },
+  "author": "dpollan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dpollan/cpp-js-addons/issues"
+  },
+  "homepage": "https://github.com/dpollan/cpp-js-addons#readme"
+}
